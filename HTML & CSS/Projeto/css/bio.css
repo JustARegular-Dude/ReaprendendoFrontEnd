@@ -1,0 +1,15 @@
+h1{
+    font-size: 60px;
+    background-color: rgb(120, 39, 63);
+    color: rgb(250, 255, 250);
+    text-align: center;
+    font-family: sans-serif;
+}
+h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+main h1{
+    
+}

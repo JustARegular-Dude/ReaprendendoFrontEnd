@@ -1,0 +1,2 @@
+Javascript é a linguagem da web; 
+dinamismo e interatividade na web;
