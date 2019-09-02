@@ -1,11 +1,7 @@
 
 // // mudando o valor de uma tag no DOM
-// var titulo = document.querySelector(".titulo");
-// titulo.textContent = "Nutricionista";
-
-
-
-
+var titulo = document.querySelector(".titulo");
+titulo.textContent = "Nutricionista";
 
 var pacientes = document.querySelectorAll(".paciente");
 console.log(pacientes);
@@ -52,3 +48,9 @@ for (var i = 0; i < pacientes.length; i++) {
         tdImc.textContent = pacienteImc.toFixed(2);
     }
 }
+
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function(){
+    console.log("fui clicado!");
+});
