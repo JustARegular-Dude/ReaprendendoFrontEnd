@@ -45,12 +45,17 @@ for (var i = 0; i < pacientes.length; i++) {
     }
 
     if (pesoValido && alturaValida) {
-        tdImc.textContent = pacienteImc.toFixed(2);
+        var imc = calculaImc(pacientePeso, pacienteAltura);
+        tdImc.textContent = imc;
     }
 }
 
 
-var botaoAdicionar = document.querySelector("#adicionar-paciente");
-botaoAdicionar.addEventListener("click", function(){
-    console.log("fui clicado!");
-});
+
+function calculaImc(peso, altura){
+    var imc = 0;
+
+    imc = peso / (altura * altura);
+
+    return imc.toFixed(2);
+}
