@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(12, 12, 12);
+    color: green;
+}
+
+
+table, th, tr, td{
+    border: 1px solid red;
+}
